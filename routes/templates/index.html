@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Desarrollo basado en plataformas</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    </head>
+    <body>
+        
+        <form action="{{url_for('dashboard')}}" method="post" id="form">
+            <div class="form">
+                <br><h1>BIENVENIDO</h1> <br><br><br>
+                <div class="grupo">
+                    <input type ="text" name ="nombre" placeholder="Nombres"> <span class="barra"></span>
+                </div>
+                <div class="grupo">
+                    <input type ="text"name = "direccion" placeholder="Dirección"><span class="barra"></span>
+                </div>
+                <div class="grupo">
+                    <input type ="text" name ="ocupacion" placeholder="Ocupación"><span class="barra"></span>
+                </div>
+                <div class="grupo">
+                    <input type ="text" name ="nacionalidad" placeholder="Nacionalidad"><span class="barra"></span>
+                </div>
+                <div class="grupo">
+                    <input type ="email" name = "email" placeholder="Email" required><span class="barra"></span>
+                </div>
+                <div class="grupo">
+                    <input type ="password" name = "contra" placeholder="Contraseña" required><span class="barra"></span>
+                </div>
+                <input type="date" id="start" name="date"
+        value="2022-01-05"
+        min="1800-01-01" max="2022-12-31"><br><br><br>
+
+
+
+
+                <button> Submit </button>
+            </div>
+            
+
+        </form>
+
+    </body>

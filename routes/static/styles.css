@@ -1,0 +1,38 @@
+h1{
+	color: rgb(41, 3, 59);
+	font-family: 'roboto';
+}
+
+* {
+	text-align:center;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+
+body {
+	background-image: url('fondo.jpg');
+}
+
+form{
+    padding: 40px 0;
+    box-shadow:0 0 6px rgba(255, 1255, 255, 0.8);
+    border-radius: 10px;
+}
+
+.form{
+	width: 100%;
+	margin: auto;
+}
+
+form .grupo{
+	position: relative;
+	margin: 45px;
+
+}
+
+input{
+	background: none;
+	font-size: 18px;
+}
+
